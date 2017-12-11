@@ -16,7 +16,7 @@
             android:layout_margin="16dp"
             android:text="@string/info"
             android:textColor="#fafafa"
-            android:textSize="20sp"
+            android:textSize="@dimen/text_size"
             android:textStyle="bold|italic" />
 
         <LinearLayout
