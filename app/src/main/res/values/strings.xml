@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">LauQuizGame</string>
+    <!--activity_main.xml file-->
+    <string name="info">How to play: You must find the combination with all correct answers, in order to finish the game!</string>
+
+    <string name="Q1">1. Enter something below! :)</string>
+    <string name="Q2">2. Guess my two favorite colors!</string>
+    <string name="Q3">3. Guess my three favorite car brands!</string>
+    <string name="Q4">4. Guess my favotive season!</string>
+    <string name="Q5">5. Guess my favorite day of the week!</string>
+
+    <string name="editText">Enter your answer</string>
+    <string name="caq1">something</string>
+
+    <string name="a1q2">Red</string>
+    <string name="a2q2">Blue</string>
+    <string name="a3q2">Yellow</string>
+    <string name="a4q2">Green</string>
+
+    <string name="a1q3">Volvo</string>
+    <string name="a2q3">Mercedes</string>
+    <string name="a3q3">Audi</string>
+    <string name="a4q3">BMW</string>
+
+    <string name="a1q4">Summer</string>
+    <string name="a2q4">Autumn</string>
+    <string name="a3q4">Spring</string>
+    <string name="a4q4">Winter</string>
+
+    <string name="a1q5">Monday</string>
+    <string name="a2q5">Tuesday</string>
+    <string name="a3q5">Wednesday</string>
+    <string name="a4q5">Thursday</string>
+    <string name="a5q5">Friday</string>
+    <string name="a6q5">Saturday</string>
+    <string name="a7q5">Sunday</string>
+
+    <string name="button">Submit your answers combination</string>
+
+    <!--MainActivity.java file- Toast messages-->
+    <string name="succed">Good job! You finally succeded! Your score is:</string>
+    <string name="score">Your score is:</string>
+    <string name="again">  Please, try again!</string>
+</resources>

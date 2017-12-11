@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">LauQuizGame</string>
+    <!--activity_main.xml file-->
+    <string name="info">Cum se joacă: Trebuie să găsești combinația cu toate răspunsurile corecte, pentru a termina jocul!</string>
+
+    <string name="Q1">1. Scrie ceva mai jos!</string>
+    <string name="Q2">2. Ghiceste-mi cele doua culori favorite!</string>
+    <string name="Q3">3. Ghiceste-mi cele trei marci de masina care imi plac!</string>
+    <string name="Q4">4. Ghici care este sezonul meu favorit?</string>
+    <string name="Q5">5. Ghici care este ziua mea favorita din saptamana?</string>
+
+    <string name="caq1">ceva</string>
+    <string name="editText">Introduceti raspunsul</string>
+    <string name="a1q2">Rosu</string>
+    <string name="a2q2">Albastru</string>
+    <string name="a3q2">Galben</string>
+    <string name="a4q2">Verde</string>
+    <string name="a1q3">Volvo</string>
+    <string name="a2q3">Mercedes</string>
+    <string name="a3q3">Audi</string>
+    <string name="a4q3">BMW</string>
+    <string name="a1q4">Vara</string>
+    <string name="a2q4">Toamna</string>
+    <string name="a3q4">Primavara</string>
+    <string name="a4q4">Iarna</string>
+    <string name="a1q5">Luni</string>
+    <string name="a2q5">Marti</string>
+    <string name="a3q5">Miercuri</string>
+    <string name="a4q5">Joi</string>
+    <string name="a5q5">Vineri</string>
+    <string name="a6q5">Sambata</string>
+    <string name="a7q5">Duminica</string>
+
+    <string name="button">Trimiteti combinatia de raspunsuri</string>
+
+    <!--MainActivity.java file- Toast messages-->
+    <string name="succed">"Bravo! Ai reusit, scorul tau este "</string>
+    <string name="score">"Scorul tau este "</string>
+    <string name="again">Incearca din nou, te rog!</string>
+</resources>
