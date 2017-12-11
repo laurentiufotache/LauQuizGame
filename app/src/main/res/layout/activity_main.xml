@@ -18,7 +18,7 @@
             android:textColor="#fafafa"
             android:textSize="20sp"
             android:textStyle="bold|italic" />
-        
+
         <LinearLayout
             android:id="@+id/linearLayout"
             android:layout_width="match_parent"
@@ -184,7 +184,6 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/a4q4" />
-
             </RadioGroup>
 
 
@@ -246,13 +245,22 @@
             </RadioGroup>
 
             <Button
-                android:id="@+id/button_id"
+                android:id="@+id/submit_button"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="16dp"
+                android:layout_margin="40dp"
                 android:onClick="submitScore"
-                android:text="@string/button" />
+                android:text="@string/submit_button" />
+
+            <Button
+                android:id="@+id/exit_button_id"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:background="@drawable/ic_launcher_background"
+                android:onClick="exitApp"
+                android:text="@string/exit_button" />
 
         </LinearLayout>
+
     </RelativeLayout>
 </ScrollView>

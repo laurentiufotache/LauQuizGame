@@ -38,4 +38,5 @@
     <string name="succed">"Bravo! Ai reusit, scorul tau este "</string>
     <string name="score">"Scorul tau este "</string>
     <string name="again">Incearca din nou, te rog!</string>
+    <string name="exit_button">Nu mai suport, renunt!</string>
 </resources>

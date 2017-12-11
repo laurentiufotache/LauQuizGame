@@ -35,10 +35,11 @@
     <string name="a6q5">Saturday</string>
     <string name="a7q5">Sunday</string>
 
-    <string name="button">Submit your answers combination</string>
+    <string name="submit_button">Submit your answers combination</string>
+    <string name="exit_button">I can not take it anymore, I quit!</string>
 
     <!--MainActivity.java file- Toast messages-->
-    <string name="succed">Good job! You finally succeded! Your score is:</string>
-    <string name="score">Your score is:</string>
+    <string name="succeed">"Good job! You finally succeeded! Your score is "</string>
+    <string name="score">"Your score is "</string>
     <string name="again">  Please, try again!</string>
 </resources>
