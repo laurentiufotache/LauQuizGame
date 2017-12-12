@@ -9,101 +9,127 @@
         android:layout_height="wrap_content"
         android:background="@drawable/background">
 
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:contentDescription="@string/desc"
+            android:src="@drawable/lqg" />
+
         <TextView
-            android:id="@+id/quizgame"
-            android:layout_width="wrap_content"
+            android:id="@+id/quiz_game"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="16dp"
+            android:layout_toEndOf="@+id/image"
+            android:layout_toRightOf="@+id/image"
+            android:gravity="center"
+            android:padding="10dp"
             android:text="@string/info"
             android:textColor="#fafafa"
-            android:textSize="@dimen/text_size"
-            android:textStyle="bold|italic" />
+            android:textSize="@dimen/ts_20"
+            android:textStyle="italic" />
 
         <LinearLayout
             android:id="@+id/linearLayout"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_below="@+id/quizgame"
+            android:layout_below="@+id/quiz_game"
             android:layout_margin="16dp"
             android:orientation="vertical">
 
             <TextView
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
+                android:gravity="center"
                 android:text="@string/Q1"
-                android:textSize="18sp"
+                android:textSize="@dimen/ts_18"
                 android:textStyle="bold" />
 
             <EditText
                 android:id="@+id/q1EditText"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:gravity="center"
                 android:hint="@string/editText"
                 android:inputType="textCapWords" />
 
             <TextView
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="16dp"
                 android:layout_marginTop="16dp"
+                android:gravity="center"
                 android:text="@string/Q2"
-                android:textSize="18sp"
-                android:textStyle="bold" />
-
-            <CheckBox
-                android:id="@+id/q2r1_checkbox"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:paddingLeft="24dp"
-                android:text="@string/a1q2"
-                android:textColor="#ff5252"
-                android:textSize="16sp" />
-
-            <CheckBox
-                android:id="@+id/q2r2_checkbox"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:paddingLeft="24dp"
-                android:text="@string/a2q2"
-                android:textColor="#1976D2"
-                android:textSize="16sp" />
-
-            <CheckBox
-                android:id="@+id/q2r3_checkbox"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:paddingLeft="24dp"
-                android:text="@string/a3q2"
-                android:textColor="#ffeb3b"
-                android:textSize="16sp" />
-
-            <CheckBox
-                android:id="@+id/q2r4_checkbox"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:paddingLeft="24dp"
-                android:text="@string/a4q2"
-                android:textColor="#4caf50"
-                android:textSize="16sp" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="16dp"
-                android:layout_marginTop="16dp"
-                android:text="@string/Q3"
-                android:textSize="18sp"
+                android:textSize="@dimen/ts_18"
                 android:textStyle="bold" />
 
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <CheckBox
+                    android:id="@+id/q2r1_checkbox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="24dp"
+                    android:paddingRight="24dp"
+                    android:text="@string/a1q2"
+                    android:textColor="#ff5252"
+                    android:textSize="@dimen/ts_16" />
+
+                <CheckBox
+                    android:id="@+id/q2r2_checkbox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="24dp"
+                    android:paddingRight="24dp"
+                    android:text="@string/a2q2"
+                    android:textColor="#1976D2"
+                    android:textSize="@dimen/ts_16" />
+
+                <CheckBox
+                    android:id="@+id/q2r3_checkbox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="24dp"
+                    android:paddingRight="24dp"
+                    android:text="@string/a3q2"
+                    android:textColor="#ffeb3b"
+                    android:textSize="@dimen/ts_16" />
+
+                <CheckBox
+                    android:id="@+id/q2r4_checkbox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="24dp"
+                    android:paddingRight="24dp"
+                    android:text="@string/a4q2"
+                    android:textColor="#4caf50"
+                    android:textSize="@dimen/ts_16" />
+            </LinearLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:layout_marginTop="16dp"
+                android:gravity="center"
+                android:text="@string/Q3"
+                android:textSize="@dimen/ts_18"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
                 android:orientation="horizontal">
 
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
                     android:orientation="vertical">
 
                     <CheckBox
@@ -111,21 +137,24 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:paddingLeft="24dp"
+                        android:paddingRight="24dp"
                         android:text="@string/a1q3"
-                        android:textSize="16sp" />
+                        android:textSize="@dimen/ts_16" />
 
                     <CheckBox
                         android:id="@+id/q3r2_checkbox"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:paddingLeft="24dp"
+                        android:paddingRight="24dp"
                         android:text="@string/a2q3"
-                        android:textSize="16sp" />
+                        android:textSize="@dimen/ts_16" />
                 </LinearLayout>
 
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
                     android:orientation="vertical">
 
                     <CheckBox
@@ -133,8 +162,9 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:paddingLeft="24dp"
+                        android:paddingRight="24dp"
                         android:text="@string/a3q3"
-                        android:textSize="16sp" />
+                        android:textSize="@dimen/ts_16" />
 
                     <CheckBox
                         android:id="@+id/q3r4_checkbox"
@@ -142,23 +172,25 @@
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="16dp"
                         android:paddingLeft="24dp"
+                        android:paddingRight="24dp"
                         android:text="@string/a4q3"
-                        android:textSize="16sp" />
+                        android:textSize="@dimen/ts_16" />
                 </LinearLayout>
             </LinearLayout>
 
             <TextView
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="16dp"
+                android:gravity="center"
                 android:text="@string/Q4"
-                android:textSize="18sp"
+                android:textSize="@dimen/ts_18"
                 android:textStyle="bold" />
-
 
             <RadioGroup
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
                 android:orientation="horizontal">
 
                 <RadioButton
@@ -188,18 +220,20 @@
 
 
             <TextView
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="16dp"
                 android:layout_marginTop="16dp"
+                android:gravity="center"
                 android:text="@string/Q5"
-                android:textSize="18sp"
+                android:textSize="@dimen/ts_18"
                 android:textStyle="bold" />
 
 
             <RadioGroup
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content">
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal">
 
                 <RadioButton
                     android:id="@+id/radio_q5a1"
