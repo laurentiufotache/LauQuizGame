@@ -32,11 +32,20 @@
     <string name="a6q5">Sambata</string>
     <string name="a7q5">Duminica</string>
 
-    <string name="button">Trimiteti combinatia de raspunsuri</string>
-
     <!--MainActivity.java file- Toast messages-->
-    <string name="succed">"Bravo! Ai reusit, scorul tau este "</string>
     <string name="score">"Scorul tau este "</string>
     <string name="again">Incearca din nou, te rog!</string>
     <string name="exit_button">Nu mai suport, renunt!</string>
+    <string name="submit_button">Trimiteti combinatia de raspunsuri</string>
+    <string name="succeed">"Bravo! Pana la urma, ai reusit!\nScorul tau este "</string>
+    <string name="desc">logo</string>
+    <string name="quit">Imi pare rau sa vad ca renunti!\n\n
+        Raspunsurile corecte sunt:\n
+        1. Ceva\n
+        2. Rosu si Albastru\n
+        3. Audi, Mercedes si BMW\n
+        4. Vara\n
+        5. Sambata\n\n
+        Multumesc!</string>
+    <string name="bye">La revedere! Distractie placura!</string>
 </resources>

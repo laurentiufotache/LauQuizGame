@@ -6,8 +6,10 @@
     <string name="Q1">1. Enter something below! :)</string>
     <string name="Q2">2. Guess my two favorite colors!</string>
     <string name="Q3">3. Guess my three favorite car brands!</string>
-    <string name="Q4">4. Guess my favotive season!</string>
+    <string name="Q4">4. Guess my favorite season!</string>
     <string name="Q5">5. Guess my favorite day of the week!</string>
+
+    <string name="desc">logo</string>
 
     <string name="editText">Enter your answer</string>
     <string name="caq1">something</string>
@@ -39,7 +41,16 @@
     <string name="exit_button">I can not take it anymore, I quit!</string>
 
     <!--MainActivity.java file- Toast messages-->
-    <string name="succeed">"Good job! You finally succeeded! Your score is "</string>
+    <string name="succeed">"Good job! You finally succeeded! \nYour score is "</string>
     <string name="score">"Your score is "</string>
-    <string name="again">  Please, try again!</string>
+    <string name="again"> Please, try again!</string>
+    <string name="quit"> We are sorry to see that you quit!\n\n
+        The answers were:\n
+        1. Something\n
+        2. Red and Blue\n
+        3. Audi, Mercedes and BMW\n
+        4. Summer\n
+        5. Saturday\n\n
+        Thank you!</string>
+    <string name="bye"> Bye! Have fun!</string>
 </resources>
