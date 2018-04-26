@@ -1,7 +1,5 @@
 # LauQuizGame
 
-How to play: 
-You must find the combination with all correct answers, in order to finish the game!
 
 
 ![lauquizgame-en1](https://user-images.githubusercontent.com/34236177/39290552-a466462a-4938-11e8-9bdc-0f25c9bbe576.jpg)
